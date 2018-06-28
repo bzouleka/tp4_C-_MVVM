@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace TP_MVVM.Model
 {
-    class User
+    public class User
     {
+        public String Nom { get; set; }
 
+        public String Prenom { get; set; }
+
+        public int Age { get; set; }
     }
 }
